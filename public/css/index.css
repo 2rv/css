@@ -3,5 +3,9 @@ html {
 }
 
 body {
-  background: #fff;
+  background: dark;
+}
+
+* {
+  color: white;
 }
