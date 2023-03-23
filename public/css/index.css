@@ -9,3 +9,37 @@ body {
 * {
   color: white;
 }
+
+[green]{
+  background-color: green;
+  color: yellow;
+}
+
+.blue_first p{
+  color: yellow;
+  background: green;
+}
+.blue_first :first-child{
+  background: blue;
+}
+
+.parni p{
+  color: yellow;
+  background: green;
+}
+
+.parni :nth-child(odd){
+  background-color: red;
+}
+
+.first_letter p::first-letter{
+  color: black;
+}
+.first_letter p{
+  color: red;
+  background: yellow;
+}
+.first_letter p::selection{
+  color: yellow;
+  background: blue;
+}
